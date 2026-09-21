@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframe du portfolio</title>
+  <style>
+    body { margin: 0; padding: 2rem; color: #243447; background: #f4f7fa; font-family: Arial, sans-serif; }
+    main { max-width: 960px; margin: auto; }
+    section { margin: 1rem 0; padding: 1.5rem; border: 2px dashed #9aaabd; background: #fff; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+    .block { min-height: 70px; padding: 1rem; background: #e4ebf2; display: grid; place-items: center; text-align: center; }
+    @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Wireframe du portfolio</h1>
+    <p>Structure de référence desktop et mobile.</p>
+    <section><strong>Header / Navigation</strong><div class="block">Logo · Accueil · Projets · À propos · Compétences · Contact</div></section>
+    <section><strong>Hero</strong><div class="grid"><div class="block">Présentation et proposition de valeur</div><div class="block">Photo de Tia</div></div></section>
+    <section><strong>Compétences</strong><div class="grid"><div class="block">Développement web</div><div class="block">Design</div><div class="block">Contenu & stratégie</div></div></section>
+    <section><strong>Formations & certifications</strong><div class="block">Parcours académique et certifications</div></section>
+    <section><strong>Projets / Réalisations</strong><div class="grid"><div class="block">Création de contenus</div><div class="block">Campagnes Meta Ads</div><div class="block">Design graphique</div></div></section>
+    <section><strong>FAQ · Contact · Footer</strong><div class="block">Questions fréquentes, formulaire et liens</div></section>
+  </main>
+</body>
+</html>
